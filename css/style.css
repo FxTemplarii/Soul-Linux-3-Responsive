@@ -22,7 +22,6 @@ html {
 .navbar-brand {
     font-weight: bold;
     font-size: 24px;
-
 }
 
 a {
@@ -214,6 +213,9 @@ img {
 .contact-us .input {
     text-align: center;
     padding-bottom: 50px;
+    margin: 0 auto;
+    width: 70%;
+
 }
 
 .contact-us .input .mail label,
@@ -228,6 +230,12 @@ img {
 }
 
 .contact-us .input .mail {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-us .input .question {
+    text-align: center;
     padding-bottom: 20px;
 }
 
@@ -235,18 +243,17 @@ img {
     border-radius: 30px;
     border: 2px solid #000000;
     height: 50px;
-    width: 180px;
 }
 
 .contact-us .input #question {
     border-radius: 20px;
     border: 2px solid #000000;
-    height: 150px;
-    width: 180px;
+    height: 200px;
 }
 
 .contact-us .socials {
     font-weight: bold;
+    text-align: center;
 }
 
 .contact-us .socials p {
@@ -273,4 +280,778 @@ img {
     font-size: 18px;
     color: whitesmoke;
     font-weight: bold;
+}
+
+/* Media Queries Portrait */
+@media(min-width:768px) and (orientation:portrait) {
+    img {
+        height: 20%;
+        width: 20%;
+    }
+
+    .header {
+        background-position: center;
+    }
+
+    .header .text {
+        padding-top: 5%;
+        top: 23%;
+    }
+
+    .header .text h1 {
+        padding-bottom: 80px;
+        font-size: 46px;
+    }
+
+    .description {
+        padding: 70px 40px;
+    }
+
+    .description h2 {
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 26px;
+    }
+
+    .description p {
+        font-size: 22px;
+    }
+
+    .software {
+        padding: 70px 40px;
+    }
+
+    .software h3 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .software p {
+        font-size: 22px;
+    }
+
+    .secure {
+        padding: 70px 40px;
+    }
+
+    .secure h3 {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 28px;
+    }
+
+    .secure p {
+        font-size: 22px;
+    }
+
+    .accessible {
+        padding: 70px 40px;
+    }
+
+    .accessible h3 {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 28px;
+    }
+
+    .accessible p {
+        font-size: 22px;
+    }
+
+    .download {
+        padding: 50px 40px;
+    }
+
+    .wrap-download {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .download h6 {
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+
+    .download .torrent a {
+        font-size: 22px;
+        padding: 15px 25px;
+    }
+
+    .download .direct a {
+        font-size: 22px;
+        padding: 15px 30px;
+    }
+
+    .contact-us {
+        padding: 70px 40px;
+    }
+
+    .contact-us .contact-us-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contact-us .p-contact {
+        font-size: 24px;
+        padding-bottom: 40px;
+    }
+
+    .contact-us .input {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 25%;
+        margin: 0;
+    }
+
+    .contact-us .input .mail {
+        padding-bottom: 40px;
+    }
+
+    .contact-us .input #mail {
+        border-radius: 30px;
+        border: 2px solid #000000;
+        height: 50px;
+    }
+
+    .contact-us .input #question {
+        border-radius: 20px;
+        border: 2px solid #000000;
+        height: 200px;
+    }
+
+    .contact-us .socials {
+        text-align: left;
+    }
+
+    .contact-us .socials p {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .contact-us .socials i {
+        padding-right: 10px;
+    }
+
+    .footer h5 {
+        font-size: 22px;
+    }
+}
+
+@media(min-width:1024px) and (orientation:portrait) {
+    img {
+        height: 20%;
+        width: 20%;
+    }
+
+    .header .text {
+        top: 25%;
+    }
+
+    .header .text h1 {
+        padding-bottom: 140px;
+        font-size: 52px;
+    }
+
+    .header .text h2 {
+        font-size: 38px;
+    }
+
+    .description {
+        padding: 70px 50px;
+    }
+
+    .description .wrap-description {
+        max-width: 1100px;
+        margin: 0 auto;
+
+    }
+
+    .description h2 {
+        padding-bottom: 40px;
+        font-size: 36px;
+    }
+
+    .description p {
+        font-size: 26px;
+    }
+
+    .software {
+        padding: 70px 50px;
+    }
+
+    .software h3 {
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+
+    .software p {
+        font-size: 26px;
+    }
+
+    .secure {
+        padding: 70px 50px;
+    }
+
+    .secure h3 {
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+
+    .secure p {
+        font-size: 25px;
+    }
+
+    .accessible {
+        padding: 70px 50px;
+    }
+
+    .accessible h3 {
+        padding-bottom: 20px;
+        font-size: 36px;
+    }
+
+    .accessible p {
+        font-size: 26px;
+    }
+
+    .download {
+        padding: 70px 40px;
+    }
+
+    .wrap-download {
+        max-width: 1100px;
+        margin: 0 auto;
+
+    }
+
+    .download h6 {
+        font-size: 36px;
+        padding-top: 30px;
+        padding-bottom: 120px;
+    }
+
+    .download .torrent a {
+        font-size: 28px;
+        padding: 25px 35px;
+    }
+
+    .download .direct a {
+        font-size: 28px;
+        padding: 25px 45px;
+    }
+
+    .contact-us {
+        padding: 70px 40px;
+    }
+
+    .contact-us .contact-us-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .contact-us .p-contact {
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+
+    .contact-us .input {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact-us .input .mail label,
+    .question label {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact-us .input .mail {
+        padding-bottom: 40px;
+    }
+
+    .contact-us .input #mail {
+        border-radius: 30px;
+        border: 2px solid #000000;
+        height: 60px;
+        width: 240px;
+    }
+
+    .contact-us .input #question {
+        border-radius: 20px;
+        border: 2px solid #000000;
+        height: 240px;
+        width: 240px;
+    }
+
+    .contact-us .socials {
+        text-align: left;
+    }
+
+    .contact-us .socials p {
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+
+    .footer h5 {
+        font-size: 28px;
+    }
+}
+
+/* Media Queries Landscape */
+@media(min-width:533px) and (orientation:landscape) {
+    .description h2 {
+        text-align: center;
+    }
+
+    img {
+        width: 15%;
+        height: 15%;
+    }
+
+    .download h6 {
+        padding-top: 30px;
+        padding-bottom: 90px;
+
+    }
+
+    .download .wrap-download {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-us .input {
+        padding-bottom: 50px;
+        margin: 0 auto;
+        width: 40%;
+
+    }
+}
+
+@media(min-width:731px) and (orientation:landscape) {
+    img {
+        width: 20%;
+        height: 20%;
+    }
+
+    .download h6 {
+        padding-top: 30px;
+        padding-bottom: 90px;
+
+    }
+
+    .download .wrap-download {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-us .input {
+        padding-bottom: 50px;
+        margin: 0 auto;
+        width: 35%;
+
+    }
+}
+
+@media(min-width:1024px) and (orientation:landscape) {
+    .header {
+        background-position: center;
+    }
+
+    .header .text {
+        padding-top: 0%;
+        top: 23%;
+    }
+
+    .header .text h1 {
+        padding-bottom: 30px;
+    }
+
+    /* Section Description */
+    .description {
+        padding: 80px 55px;
+    }
+
+    .wrap-description {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .description h2 {
+        text-align: center;
+        padding-bottom: 40px;
+        font-size: 24px;
+    }
+
+    .description p {
+        font-size: 18px;
+    }
+
+    /* Section Software */
+    .software {
+        padding: 80px 55px;
+    }
+
+    .software img {
+        padding-bottom: 20px;
+    }
+
+    .software h3 {
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .software p {
+        font-size: 18px;
+    }
+
+    /* Section Secure */
+    .secure {
+        padding: 80px 55px;
+    }
+
+    .secure img {
+        padding-bottom: 40px;
+    }
+
+    .secure h3 {
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .secure p {
+        font-size: 18px;
+    }
+
+    /* Section Accessible */
+    .accessible {
+        padding: 80px 55px;
+    }
+
+    .accessible img {
+        padding-bottom: 20px;
+    }
+
+    .accessible h3 {
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .accessible p {
+        font-size: 18px;
+    }
+
+
+    /* Section Download */
+    .download {
+        padding: 80px 55px;
+
+    }
+
+
+    .download h6 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+
+    .download .torrent {
+        padding-bottom: 70px;
+    }
+
+    .download .direct {
+        padding-bottom: 20px;
+    }
+
+    .download .torrent a {
+        font-size: 24px;
+        padding: 20px 30px;
+    }
+
+    .download .direct a {
+        font-size: 24px;
+        padding: 20px 35px;
+    }
+
+    /* Section Contact-Us */
+    .contact-us {
+        padding: 80px 55px;
+    }
+
+    .contact-us .p-contact {
+        font-size: 24px;
+        padding-bottom: 60px;
+    }
+
+    .contact-us .contact-us-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .contact-us .input {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 40px;
+        width: 30%;
+        margin: 0;
+    }
+
+
+    .contact-us .input .mail {
+        padding-bottom: 30px;
+    }
+
+    .contact-us .socials {
+        text-align: left;
+    }
+
+
+    .contact-us .socials p {
+        font-size: 20px;
+
+    }
+
+    /* Footer */
+    .footer {
+        padding: 30px 20px;
+    }
+
+    .footer h5 {
+        font-size: 20px;
+    }
+}
+
+@media(min-width:1366px) and (orientation:landscape) {
+    .header .text {
+        padding-top: 0%;
+        top: 26%;
+    }
+
+    .header .text h1 {
+        padding-bottom: 80px;
+    }
+
+    /* Section Description */
+    .description {
+        padding: 256px 0;
+    }
+
+    .wrap-description {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .description h2 {
+        font-weight: normal;
+        padding-bottom: 100px;
+        font-size: 34px;
+    }
+
+    .description p {
+        font-size: 24px;
+    }
+
+    /* Section Software */
+    .software {
+        padding: 256px 0;
+    }
+
+    .software .feature {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .software img {
+        width: 220px;
+        height: 250px;
+    }
+
+    .software .text {
+        margin-right: 100px;
+    }
+
+    .software h3 {
+        text-transform: uppercase;
+    }
+
+    .software p {
+        font-size: 20px;
+    }
+
+    /* Section Secure */
+    .secure {
+        padding: 256px 0;
+    }
+
+    .secure .feature {
+        margin: 0 auto;
+        max-width: 1100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .secure img {
+        width: 220px;
+        height: 250px;
+        padding: 0;
+    }
+
+    .secure .text {
+        margin-left: 95px;
+    }
+
+    .secure h3 {
+        text-transform: uppercase;
+    }
+
+    .secure p {
+        font-size: 20px;
+    }
+
+    /* Section Accessible */
+    .accessible {
+        padding: 256px 0;
+    }
+
+    .accessible .feature {
+        margin: 0 auto;
+        max-width: 1100px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+
+    .accessible img {
+        width: 220px;
+        height: 220px;
+        padding: 0;
+    }
+
+    .accessible .text {
+        margin-right: 80px;
+    }
+
+    .accessible h3 {
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .accessible p {
+        font-size: 20px;
+    }
+
+
+    /* Section Download */
+    .download {
+        padding: 256px 0;
+    }
+
+    .wrap-download {
+        padding-top: 100px;
+        margin: 0 auto;
+    }
+
+
+    .download h6 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+
+    .download .torrent {
+        padding-bottom: 70px;
+    }
+
+    .download .direct {
+        padding-bottom: 20px;
+    }
+
+    .download .torrent a {
+        font-size: 24px;
+        padding: 20px 70px;
+        transition: 0.3s ease-in;
+    }
+
+    .download .direct a {
+        font-size: 24px;
+        padding: 20px 75px;
+        transition: 0.3s ease-in;
+    }
+
+    .download .wrap-download .torrent a:hover,
+    .direct a:hover {
+        background-color: whitesmoke;
+        opacity: 0.5;
+        color: black
+    }
+
+    /* Section Contact-Us */
+    .contact-us {
+        padding: 256px 0;
+    }
+
+    .contact-us .contact-us-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .contact-us .p-contact {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        padding-bottom: 60px;
+    }
+
+    .contact-us .contact-us-wrap {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .contact-us .input {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 40px;
+        width: 30%;
+        margin: 0;
+    }
+
+
+    .contact-us .input .mail {
+        padding-bottom: 50px;
+    }
+
+    .contact-us .input #mail {
+        text-align: center;
+        height: 50px;
+        width: 300px;
+    }
+
+    .contact-us .input #question {
+        height: 300px;
+        width: 300px;
+    }
+
+
+    .contact-us .socials {
+        text-align: left;
+    }
+
+
+    .contact-us .socials p {
+        font-size: 24px;
+        padding-bottom: 40px;
+
+    }
 }
