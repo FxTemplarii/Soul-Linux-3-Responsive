@@ -780,14 +780,14 @@ img {
     }
 }
 
-@media(min-width:1366px) and (orientation:landscape) {
+@media(min-width:1366px) {
     .header .text {
         padding-top: 0%;
         top: 26%;
     }
 
     .header .text h1 {
-        padding-bottom: 80px;
+        padding-bottom: 50px;
     }
 
     /* Section Description */
